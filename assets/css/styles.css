@@ -25,15 +25,6 @@
   text-decoration: none;
 }
 
-.navbar-brand::before {
-  content: "";
-  display: block;
-  width: 30px;
-  height: 30px;
-  flex: 0 0 30px;
-  background: url("../images/logo.png") center / contain no-repeat;
-}
-
 /* Navigation layout */
 .navbar-collapse {
   display: flex;
@@ -102,6 +93,13 @@
   background-size: cover;
 }
 
+.hero-section .contact-title {
+  color: #ffebd4;
+  font-family: "Handlee", cursive;
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  font-weight: 400;
+}
+
 .hero-title {
   color: #ffebd4;
   font-family: "Handlee", cursive;
@@ -168,6 +166,8 @@
 .site-footer {
   color: #ffebd4;
   background-color: #6f4e37;
+  flex-shrink: 0;
+  margin-top: auto;
 }
 
 .social-links a {
@@ -179,4 +179,33 @@
 .social-links a:hover,
 .social-links a:focus {
   color: #ffffff;
+}
+
+.min-vh-50 {
+  min-height: 50vh;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-content {
+  flex: 1 0 auto;
+}
+
+.content-section {
+  min-height: 20vh;
+}
+
+.contact-title {
+  color: #3b2f2f;
+  font-family: "Handlee", cursive;
+  font-weight: 400;
 }
