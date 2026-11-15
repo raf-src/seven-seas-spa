@@ -119,3 +119,64 @@
 .hero-section .lead {
   color: #ffebd4;
 }
+
+.services-section,
+.testimonials-section {
+  background-color: #ffffff;
+}
+
+.service-card {
+  border: 0;
+  box-shadow: 0 0.25rem 1rem rgba(59, 47, 47, 0.12);
+}
+
+.service-card .card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.service-card .card-body {
+  padding: 1.25rem;
+}
+
+.wellness-tips-section {
+  background-color: #fff8f1;
+}
+
+.wellness-list {
+  padding-left: 1.25rem;
+}
+
+.wellness-list li {
+  margin-bottom: 0.75rem;
+}
+
+.testimonial-card {
+  max-width: 650px;
+  min-height: 260px;
+  padding: 1rem 3rem;
+}
+
+.testimonial-avatar {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.site-footer {
+  color: #ffebd4;
+  background-color: #6f4e37;
+}
+
+.social-links a {
+  color: #ffebd4;
+  font-size: 1.35rem;
+  text-decoration: none;
+}
+
+.social-links a:hover,
+.social-links a:focus {
+  color: #ffffff;
+}
