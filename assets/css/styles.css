@@ -91,3 +91,31 @@
     padding: 10px 0 !important;
   }
 }
+
+.hero-section {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  background-image: url("../images/hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-title {
+  color: #ffebd4;
+  font-family: "Handlee", cursive;
+  font-size: clamp(1.35rem, 7vw, 3.5rem);
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  white-space: nowrap;
+}
+
+.hero-title,
+.hero-section .lead {
+  color: #ffebd4;
+}
+
+.hero-section .lead {
+  color: #ffebd4;
+}
